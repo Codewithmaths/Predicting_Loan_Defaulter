@@ -125,10 +125,11 @@ Feature Selection
 Preparing dataset for modeling
 Applying Model
 Model Validation and Selection
-Conclusion
+
+<b>Conclusion<br>
 The last_fico_range, grade, inq_last_6month features were found to be the most relevant for predicting loan default in. The current model tries to predict default biased data from credit analysts grade and assigned interest rate. The XGBC and RF models provide substantial improvements on traditional credit screening. A recall score significantly and robustly above 90%, with AUC-ROC scores ≃74%. The features provided to the model in our study generalize to any lending activity and institution, beyond P2P lending. The present work could, therefore, be augmented in order to predict loan default risk without the need for human credit screening.
 Due to the time limit, it is not possible to conduct a thorough study and have a deep understanding of the dataset. There are still many features in the dataset that are unused and a lot of the information has not been fully digested with knowledge in the banking industry.
 Only the Random Forest., XGBoost, model is used, but there are many good ones out there even neural networks. The models can also be improved further by finer tunings on hyperparameters or using ensemble methods such as bagging, boosting,.
 In the bank loan behaviour prediction, for example, banks want to control the loss to a acceptable level, so they may use a relatively low threshold. This means more customers will be grouped as “potential bad customers” and their profiles will be checked carefully later by the credit risk management team. In this way, banks can detect the default behaviours in the earlier stage and conduct the corresponding actions to reduce the possible loss.
-Recomendation
+<b>Recomendation<br>
 Dataset from a Lending club is an interesting dataset. It is offen very difficult to get the insights of interest rate from Bank. This analysis provides interesting information about the interest rate which we get from Lending club for each person. The interest rate which we receive depends on the various factors like FICO score, Homeownership, Purpose of loan, loan amount requested, Annual income, Employee length, Issue month, Previous bankrupcies and Debt to income ratio. If a person is wanting to get a good interest rate then he need to focus on above factors before applying for a lending club loan. From the research question, we understood that we need to perform various test and add visalizations to understand the patern of Lending club borrowers data and find the interest rate. It is not a very straight forward method which gets from FICO scores. Also lot of financial terms while dealing with loans.
